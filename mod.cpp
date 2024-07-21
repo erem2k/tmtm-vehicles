@@ -1,0 +1,14 @@
+name = "TMTM Vehicles";
+picture = "tmtm_vehicles_picture.paa";
+actionName = "Github";
+action = "https://github.com/erem2k/tmtm-vehicles";
+description = "TMTM Vehicles - Version 0.0.0";
+logoSmall = "tmtm_logo.paa";
+logo = "tmtm_pack.paa";
+logoOver = "tmtm_pack_over.paa";
+tooltip = "TMTM Vehicles";
+tooltipOwned = "TMTM Vehicles";
+overview = "A collection of vehicle submods for TMTM";
+author = "TMTM";
+hideName = 0;
+hidePicture = 0;

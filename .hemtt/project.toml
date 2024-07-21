@@ -1,0 +1,37 @@
+name = "TMTM Vehicles"
+author = "TMTM"
+prefix = "tmtm_vehicles"
+
+[files]
+include = [
+	"mod.cpp",
+	"README.md",
+	"AUTHORS.txt",
+	"LICENSE.md",
+	"tmtm_logo.paa",
+	"tmtm_vehicles.paa",
+	"tmtm_vehicles_over.paa",
+	"tmtm_vehicles_picture.paa"
+]
+exclude = [
+	"*.jpg",
+	"*.png",
+	"*.psd",
+	"*.xcf"
+]
+
+[version]
+path = "addons/main/script_version.hpp"
+git_hash = 0
+
+major = 1
+minor = 0
+patch = 0
+build = 0
+
+[hemtt.release]
+sign = true
+archive = true
+
+key_name = "{{prefix}}_{{version}}"
+authority = "{{prefix}}_{{version}}-{{git \"id 8\"}}"
